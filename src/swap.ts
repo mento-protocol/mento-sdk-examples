@@ -3,10 +3,18 @@ import { Wallet, providers, utils } from "ethers";
 import { Mento } from "@mento-protocol/mento-sdk";
 
 async function main() {
+  const privateKey = "";
+  if (!privateKey) {
+    console.log(
+      'Set your private key in the "privateKey" variable. before running this script.'
+    );
+    process.exit(1);
+  }
+
   const provider = new providers.JsonRpcProvider(
     "https://alfajores-forno.celo-testnet.org"
   );
-  const signer = new Wallet("YOUR_PRIVATE_KEY_HERE", provider);
+  const signer = new Wallet(privateKey, provider);
   const mento = await Mento.create(signer);
 
   const celoTokenAddr = "0xF194afDf50B03e69Bd7D057c1Aa9e10c9954E4C9";
