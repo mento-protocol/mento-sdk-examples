@@ -17,5 +17,8 @@ yarn
 # run the example snippets
 yarn ts-node src/discovery.ts
 yarn ts-node src/quotes.ts
-yarn ts-node src/swap.ts
+yarn ts-node src/swap.ts (requires private key setup)
 ```
+
+# private key setup
+Replace the variable "YOUR_PRIVATE_KEY_HERE" in `src/swap.ts` with your private key for your chosen Celo network.
