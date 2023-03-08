@@ -20,5 +20,5 @@ yarn ts-node src/quotes.ts
 yarn ts-node src/swap.ts (requires private key setup)
 ```
 
-# private key setup
+## Private Key Setup
 Replace the variable "YOUR_PRIVATE_KEY_HERE" in `src/swap.ts` with your private key for your chosen Celo network.
