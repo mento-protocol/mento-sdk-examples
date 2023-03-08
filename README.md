@@ -21,4 +21,4 @@ yarn ts-node src/swap.ts (requires private key setup)
 ```
 
 ## Private Key Setup
-Replace the variable "YOUR_PRIVATE_KEY_HERE" in `src/swap.ts` with your private key for your chosen Celo network.
+Replace the variable `"YOUR_PRIVATE_KEY_HERE"` in [src/swap.ts](https://github.com/mento-protocol/mento-sdk-examples/blob/main/src/swap.ts) with your private key for your chosen Celo network.
