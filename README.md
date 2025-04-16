@@ -22,5 +22,5 @@ cp .env.example .env
 yarn ts-node src/discovery.ts
 yarn ts-node src/quotes.ts
 yarn ts-node src/swap.ts
-yarn ts-node src/swap.ts
+yarn ts-node src/routerSwap.ts
 ```
