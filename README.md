@@ -14,8 +14,13 @@ cd mento-sdk-examples
 # install all dependencies
 yarn
 
+# Set up environment variables:
+cp .env.example .env
+# Add your private key to the .env file:
+
 # run the example snippets
 yarn ts-node src/discovery.ts
 yarn ts-node src/quotes.ts
 yarn ts-node src/swap.ts
+yarn ts-node src/routerSwap.ts
 ```
