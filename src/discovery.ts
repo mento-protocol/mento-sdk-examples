@@ -7,7 +7,7 @@ async function main() {
   );
   const mento = await Mento.create(provider);
 
-  const pairs = await mento.getTradeablePairs();
+  const pairs = await mento.getTradablePairs();
   console.log(`Found ${pairs.length} tradeable pairs:`);
   console.log(pairs);
 }
